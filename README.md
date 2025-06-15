@@ -20,3 +20,31 @@
 最终输出包含时间戳和变更次数统计的完整报告
 
 典型应用场景：当需要审查某个关键方法（如数据库操作方法）的演变过程时，通过该脚本可快速生成包含所有历史变更节点的可追溯文档。
+### 输出示例
+=====================================================
+#### 提交 `1fde558545308b7b858f69016395a9cb8d2afdb6`
+##### 提交信息
+* 提交人：`user1 <user1@xxx.com>`
+* 提交时间：`Tue Jan 16 16:16:53 2024 +0800`
+* 提交说明：修改xxx查询问题
+* 详情：
+
+```xml
+  <select id="pageByCondition" resultType="java.util.HashMap">
+    select 2 from dual
+  </select>
+```
+
+#### 提交 `a6ba163ceda934bcf1e090adb4b768ab4d3e1f94`
+##### 提交信息
+* 提交人：`user2 <user2@xxx.com>`
+* 提交时间：`Sun Dec 24 21:54:01 2023 +0800`
+* 提交说明：修改xxx
+* 详情：
+
+```xml
+  <select id="pageByCondition" resultType="java.util.HashMap">
+    select 1 from dual
+  </select>
+```
+=====================================================
