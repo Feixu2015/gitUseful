@@ -2,6 +2,7 @@
 一些用于git查询的高阶脚本
 
 ## queryMapperMethodXmlChange.sh
+[queryMapperMethodXmlChange.sh](./queryMapperMethodXmlChange.sh)
 适用于java应中用于追踪Mybatis的Mapper的XML文件中某个方法的变更。
 参数有两个，一个是相对于根目录的文件路径，一个是分支名。
 主要功能分为三个部分：
