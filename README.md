@@ -4,7 +4,7 @@
 ## queryMapperMethodXmlChange.sh
 [queryMapperMethodXmlChange.sh](./queryMapperMethodXmlChange.sh)
 适用于java应中用于追踪Mybatis的Mapper的XML文件中某个方法的变更。
-参数有两个，一个是相对于根目录的文件路径，一个是分支名。
+参数有四个：方法名，相对于根目录的文件路径，输出MarkDown文件名，分支名。
 主要功能分为三个部分：
 ### 1. 配置管理
 支持自定义目标方法名（METHOD）、文件路径（FILE）和输出文件（OUTPUT）
